@@ -4,7 +4,6 @@ counter = 0
       if space == "X" || space == "O"
         counter += 1
       end
-    end
-    counter = counter
-    puts counter
+  end
+puts counter
 end
