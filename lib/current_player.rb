@@ -7,3 +7,11 @@ counter = 0
   end
   return counter
 end
+
+def current_player(board)
+  turn_count(board)
+  if counter % 2
+    return "X"
+  else
+    return "O"
+end
