@@ -5,5 +5,6 @@ counter = 0
         counter += 1
       end
     end
-    print counter
+    counter = counter
+    puts counter
 end
