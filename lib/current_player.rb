@@ -3,7 +3,7 @@ counter = 0
   board.each do |space|
       if space == "X" || space == "O"
         counter += 1
-puts "#{}{counter}"
+puts "#{counter}"
       end
     end
 end
